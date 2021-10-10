@@ -1,9 +1,9 @@
-#Credit Risk Analysis (Module 1 Challenge)
+# Credit Risk Analysis (Module 1 Challenge)
 
-##Overview
+## Overview
 The purpose of this analysis was to predict credit risk for loan applicants for LendingClub, a peer-to-peer lending services company.  Credit risk is an inherently unbalanced classification problem, as good loans easily outnumber risky loans. Therefore, to ensure that we are accurately identifying loan applicants who are risky, we tested out several different techniques and evaluated the performance of each. 
 
-##Results
+## Results
 To ensure we were approaching this problem in the best way, we began by exploring the data and understanding the training inputs as well as the class to be predicted. We then tested several methods for sampling and evaluated the accuracy of each using a Logistic Regression classifier. 
 
 - *Oversampling using Naive Random* 
@@ -34,5 +34,5 @@ Additionally, we tested two different ensemble learning methods.
   - Precision score of 8%
   - Recall score of 92%
 
-##Summary
+## Summary
 Based on these results, the Easy Ensemble AdaBoost classifier performed best in terms of accuracy, precision and recall. I recommend that the team uses the Easy Ensemble AdaBoost classifier as it has a recall of 92% - meaning it will correctly identify about 92% of all high risk loans. In this case, we want to optimize for precision since we would rather flag safe loans as potentially risky than miss risky loans that need further investigation. 
